@@ -1,0 +1,116 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>스톡핏!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 추가 -->
+  <link rel="icon" type="image/png" href="src/img/favicon.png">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Pretendard 폰트 CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
+</head>
+<body style="font-family: 'Pretendard', 'sans-serif';" class="bg-[#eaf3fb]">
+
+  <!-- 헤더 (왼쪽 정렬, Hero와 폭/여백 통일) -->
+  <header class="w-full bg-white py-6 shadow">
+    <div class="max-w-5xl mx-auto px-4 flex items-center">
+      <img src="src/img/stockfit-logo.png" alt="Stockfit 로고" class="h-14">
+    </div>
+  </header>
+
+  <!-- Hero 섹션 (동일한 max-w-5xl, px-4 적용) -->
+  <section class="bg-[#eaf3fb] py-16">
+    <div class="max-w-5xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+      <!-- 왼쪽 텍스트 -->
+      <div class="w-full md:w-1/2">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">수익 창출을 돕는<br>자동매매 전문가, <span class="text-blue-600">스톡핏</span></h1>
+        <p class="mb-6 text-gray-700">인공지능과 데이터로 자동매매의 새로운 기준.<br>오직 당신만을 위한 자동매매 시스템, 스톡핏에서 경험하세요.</p>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded font-semibold shadow hover:bg-blue-700 transition">서비스 살펴보기</button>
+      </div>
+      <!-- 오른쪽 이미지 -->
+      <div class="w-full md:w-1/2 flex justify-end mt-8 md:mt-0">
+        <img src="src/img/img-0.png" alt="그래프 이미지" class="w-80 max-w-full">
+      </div>
+    </div>
+  </section>
+
+  <!-- 가치 섹션 -->
+  <section class="bg-white py-16">
+    <div class="container max-w-5xl mx-auto px-4">
+      <span class="inline-block bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-xs mb-2">Stockfit's Feature</span>
+      <h2 class="text-3xl font-bold mb-8"><span class="text-blue-600">스톡핏</span>의 가치</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="bg-[#f6fafd] p-6 rounded-lg shadow flex flex-col items-center">
+          <i class="fas fa-search text-blue-500 text-3xl mb-4"></i>
+          <h3 class="font-bold mb-2">마케팅 리서치</h3>
+          <p class="text-sm text-gray-600 text-center">급등주 예측 시스템으로<br> 수익성 높은 종목 선별</p>
+        </div>
+        <div class="bg-[#f6fafd] p-6 rounded-lg shadow flex flex-col items-center">
+          <i class="fas fa-robot text-blue-500 text-3xl mb-4"></i>
+          <h3 class="font-bold mb-2">AI 자동 타겟</h3>
+          <p class="text-sm text-gray-600 text-center">백테스트 기반 전략으로 <br> 자동 매매</p>
+        </div>
+        <div class="bg-[#f6fafd] p-6 rounded-lg shadow flex flex-col items-center">
+          <i class="fas fa-chart-line text-blue-500 text-3xl mb-4"></i>
+          <h3 class="font-bold mb-2">알고리즘 전략 분석</h3>
+          <p class="text-sm text-gray-600 text-center">조건 기반 <br>자동 매매 로직 실행</p>
+        </div>
+        <div class="bg-[#f6fafd] p-6 rounded-lg shadow flex flex-col items-center">
+          <i class="fas fa-shield-alt text-blue-500 text-3xl mb-4"></i>
+          <h3 class="font-bold mb-2">리스크 최적화</h3>
+          <p class="text-sm text-gray-600 text-center">실행 손절/익절 기준으로 <br> 안전성 확보</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 중간 타이틀 -->
+  <section class="text-center py-12 bg-[#f6fafd]">
+    <div class="text-gray-500 text-sl mb-2">혼자서도 충분한 투자</div>
+    <h2 class="text-2xl md:text-3xl font-bold">당신을 위한 자동매매 시스템,<br><span class="text-blue-600">스톡핏</span></h2>
+  </section>
+
+  <!-- 매매 전략/정보 섹션 -->
+  <section class="bg-[#eaf3fb] py-16">
+    <div class="container max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
+      <div>
+        <span class="text-blue-600 font-semibold text-sm">Innovation</span>
+        <h3 class="text-2xl font-bold mt-2 mb-4">매매 전략의 새로운 기준을 제시합니다.</h3>
+        <p class="text-gray-700 mb-2">스마트한 정보·분석·전략과 함께 자동화된 시스템.<br>실시간 시세 분석부터 신뢰성, 안정성, 투명성까지.<br>스톡핏을 통해 새로운 표준을 경험하세요.</p>
+      </div>
+      <img src="src/img/img-1.jpg" alt="트레이딩 전략" class="rounded-lg shadow">
+    </div>
+  </section>
+
+  <!-- 포트폴리오/정보 섹션 (정렬 개선) -->
+  <section class="bg-white py-16">
+    <div class="max-w-5xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+      <!-- 왼쪽: 이미지 -->
+      <div class="flex justify-start">
+        <img src="src/img/img-2.jpg" alt="포트폴리오 정보" class="rounded-lg shadow w-full max-w-[400px]">
+      </div>
+      <!-- 오른쪽: 텍스트 (왼쪽 정렬, 불필요한 마진/패딩 제거) -->
+      <div class="flex flex-col justify-center">
+        <span class="text-blue-600 font-semibold text-sm mb-1">User-Centric Approach</span>
+        <h3 class="text-2xl font-bold mb-4">필요한 모든 정보, 한 곳에</h3>
+        <p class="text-gray-700 mb-2">
+          포트폴리오 대시보드에서<br>
+          실시간 투자 현황, 종목 분석, 변동 상황을<br>
+          모두 확인할 수 있습니다.<br>
+          알림도 웹/모바일/이메일로 즉시 제공!
+        </p>
+      </div>
+    </div>
+  </section>
+
+    <!-- 푸터 -->
+    <footer class="text-xs text-gray-500 text-center px-8 py-4 bg-white border-t">
+        © 2025 Stockfit. All rights reserved.
+      </footer>
+    </body>
+    </html>
